@@ -1,0 +1,149 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "AviateRecruiterATS",
+    "collectionId": "1cc4697f-5fa0-4ef9-9c52-a7881376c62e",
+    "dateExported": "2024-10-16T12:32:05.505Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "9c88eb52-c0dd-4d76-b5cf-a42cfab1c205",
+            "colId": "1cc4697f-5fa0-4ef9-9c52-a7881376c62e",
+            "containerId": "",
+            "name": "CreateCandidate",
+            "url": "http://127.0.0.1:8000/ats/candidate/create/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-10-16T03:42:41.259Z",
+            "modified": "2024-10-16T08:23:18.061Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Ajay Singh"
+                    },
+                    {
+                        "name": "age",
+                        "value": "22"
+                    },
+                    {
+                        "name": "gender",
+                        "value": "Male"
+                    },
+                    {
+                        "name": "email",
+                        "value": "ajay5@gmail.com"
+                    },
+                    {
+                        "name": "phoneNumber",
+                        "value": "+91-5134567890"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "e9ef82e9-fe13-4993-b940-957af680e59f",
+            "colId": "1cc4697f-5fa0-4ef9-9c52-a7881376c62e",
+            "containerId": "",
+            "name": "ListCandidates",
+            "url": "http://127.0.0.1:8000/ats/candidates/list/",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2024-10-16T03:58:08.288Z",
+            "modified": "2024-10-16T03:58:59.939Z",
+            "headers": []
+        },
+        {
+            "_id": "cac5b236-d822-4ede-9fe8-6b814a0c2205",
+            "colId": "1cc4697f-5fa0-4ef9-9c52-a7881376c62e",
+            "containerId": "",
+            "name": "UpdateCandidate",
+            "url": "http://127.0.0.1:8000/ats/candidate/update/1",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-10-16T03:54:46.930Z",
+            "modified": "2024-10-16T03:55:33.936Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Vinit Tekwani"
+                    },
+                    {
+                        "name": "age",
+                        "value": "22"
+                    },
+                    {
+                        "name": "gender",
+                        "value": "Male"
+                    },
+                    {
+                        "name": "email",
+                        "value": "vinit123@gmail.com"
+                    },
+                    {
+                        "name": "phoneNumber",
+                        "value": "+91-9680018722"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "ef3681c6-7fd1-4646-82b9-c0b60e113e36",
+            "colId": "1cc4697f-5fa0-4ef9-9c52-a7881376c62e",
+            "containerId": "",
+            "name": "SearchCandidates",
+            "url": "http://127.0.0.1:8000/ats/candidates/search/Ajay Kumar yadav",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2024-10-16T05:43:49.912Z",
+            "modified": "2024-10-16T12:27:55.126Z",
+            "headers": []
+        },
+        {
+            "_id": "3db3db2d-75f8-4077-88b5-57340c430cd8",
+            "colId": "1cc4697f-5fa0-4ef9-9c52-a7881376c62e",
+            "containerId": "",
+            "name": "DeleteCandidate",
+            "url": "http://127.0.0.1:8000/ats/candidate/delete/6",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-10-16T03:55:41.347Z",
+            "modified": "2024-10-16T08:19:19.722Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Vinit Tekwani"
+                    },
+                    {
+                        "name": "age",
+                        "value": "22"
+                    },
+                    {
+                        "name": "gender",
+                        "value": "Male"
+                    },
+                    {
+                        "name": "email",
+                        "value": "vinit123@gmail.com"
+                    },
+                    {
+                        "name": "phoneNumber",
+                        "value": "+91-9680018722"
+                    }
+                ]
+            }
+        }
+    ],
+    "ref": "kiAtu-UY-qKh1G3ILFQgeNyNUW58oNQWiyT0MWSbRybrZt_4UBmqs37rzb926NBGbIF_Ku3Be2ydLgvOWdRiRA"
+}
